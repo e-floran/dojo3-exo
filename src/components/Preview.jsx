@@ -4,7 +4,7 @@ import PreviewBody from "./PreviewBody.jsx";
 
 function Preview(props) {
   return (
-    <div id="main" className="pure-u-1">
+    <div className="preview">
       <PreviewHeader />
       <PreviewBody />
     </div>
