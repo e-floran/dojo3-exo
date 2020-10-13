@@ -11,10 +11,10 @@ function EmailContentTitle(props) {
     </div>
   );
 }
-HeaderTitle.propTypes = {
+EmailContentTitle.propTypes = {
   mailTitle: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
-  date: PropTypes.number.isRequired,
+  date: PropTypes.string.isRequired,
 };
 
 export default EmailContentTitle;
